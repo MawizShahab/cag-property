@@ -386,10 +386,6 @@ div#form-contents-3 .form-group .ratio-option {
     width: 1510px !important;
   }
 
-  /* .form-container.custom-width.height-1 {
-    transform: translateX(-365px) !important;
-  } */
-
   .form-container.custom-width.height-3 {
     transform: translateX(-763px) !important;
   }
@@ -437,5 +433,23 @@ div#form-contents-3 .form-group .ratio-option {
 
   .form-container.custom-width.height-4 {
     transform: translateX(-1263px) !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 389px) {
+  .form-container.custom-width {
+    width: 1450px !important;
+  }
+
+  .form-container.custom-width.height-2 {
+    transform: translateX(-365px) !important;
+  }
+
+  .form-container.custom-width.height-3 {
+    transform: translateX(-734px) !important;
+  }
+
+  .form-container.custom-width.height-4 {
+    transform: translateX(-1100px) !important;
   }
 }
