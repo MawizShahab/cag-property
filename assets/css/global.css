@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "Plus Jakarta Sans";
+}
+.container {
+  width: 415px;
+  padding-top: 0px;
+}
+.height-1 {
+  height: 800px;
+  overflow: hidden;
+}
+.height-2 {
+  height: 980px;
+  overflow: hidden;
+  width: 478% !important;
+}
+.height-3 {
+  height: auto;
+  overflow: hidden;
+  width: 420% !important;
+}
+.height-4 {
+  /* height: 1100px; */
+  height: 1650px !important;
+  width: 425% !important;
+  overflow: hidden;
+}
+.logo {
+  width: 200px;
+  margin-inline: auto;
+  /* margin-bottom: 100px; */
+  margin: 0 auto !important;
+}
+.form-container .width-4 {
+  width: 400px;
+}
+.form-container {
+  display: flex;
+  gap: 15px;
+  transition: all 0.5s ease;
+  justify-content: center;
+}
+.form-container.custom-width {
+  width: 1650px !important;
+}
+.error {
+  color: red;
+  display: block;
+  font-size: 12px;
+}
+
+/* Form 1 Code Starts Here */
+span.form-one-title {
+  color: #666;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  display: block;
+}
+.form-terms {
+  padding: 24px;
+  border-radius: 4px;
+  background: #f7f7f7;
+  margin-block: 24px;
+}
+.form-terms ul {
+  list-style: none;
+}
+.form-terms ul li {
+  color: #666;
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: flex;
+  margin-left: -20px;
+}
+.form-terms ul li.bullet::before {
+  content: "o";
+  font-weight: bold;
+  color: #06133b;
+  margin-right: 10px;
+}
+.custom-primary {
+  width: 100%;
+  border-radius: 4px;
+  background: #3fdcc8;
+  padding: 18px 0px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.custom-primary:hover {
+  background: #24c0ab;
+  color: #fff;
+}
+.hr {
+  width: 85%;
+  margin-inline: auto;
+  margin-block: 22px;
+  color: #999;
+}
+.muted-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #666;
+}
+.outlined-btn {
+  padding: 17px 0px;
+  margin-top: 22px;
+  margin-bottom: 71px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #666;
+  background: #fff;
+  color: #3fdcc8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.outlined-btn:hover {
+  border: 1px solid #3fdcc8;
+  color: #3fdcc8;
+}
+/* Form 1 code Ends Here */
+
+/* Form 2 code Starts Here */
+.form-two-title {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  display: block;
+  margin-bottom: 50px;
+}
+.sjp-logo {
+  width: 114px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+}
+/* .fname-label {
+  margin-bottom: 30px;
+} */
+.input-text {
+  padding: 18px 16px;
+  border-radius: 4px;
+  background: #f7f7f7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-block: 15px;
+}
+.m-15 {
+  margin-top: 15px;
+}
+small {
+  color: #666;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.check-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-block: 15px;
+}
+.check-group label {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 0px;
+  padding-right: 40px;
+}
+hr.form-two--hr {
+  height: 2px;
+  background: #999;
+}
+.next-btn {
+  width: 100%;
+  padding: 18px 0px;
+  border-radius: 4px;
+  background: #3fdcc8;
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all 0.5s ease;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.next-btn:hover {
+  background: #32cbb7;
+  color: inherit;
+  color: #fff;
+}
+/* Form 2 code Ends Here */
+
+/* Form 3 code starts here */
+.select-field {
+  border: 1px solid #ced4da;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.ratio-option input {
+  accent-color: #3fdcc8;
+}
+/* Form 3 code ends here */
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+}
+.thank-you a.thank-you--message {
+  color: #3fdcc8;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 40px;
+}
+.thank-you .thank-you-para {
+  color: #666;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.thank-you p.confirmation--message {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+/*Custom Design */
+
+.file-container {
+  text-align: center;
+  padding: 16px;
+  border-radius: 6px;
+  border: 2px dashed rgba(202, 202, 202, 0.3);
+  background: #fff;
+  cursor: pointer;
+  width: 328px;
+  margin: 42px auto 0 auto;
+}
+
+.file-container img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.click-to-upload {
+  color: #a020f0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.drag-and-drop {
+  color: #353535 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.max-file-size {
+  margin-top: 10px;
+  color: #353535;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.selected-file {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.file-input {
+  display: none;
+}
+
+.sub-title {
+  color: #666;
+}
+
+.input-text {
+  outline: 0;
+  border: 0;
+  color: #7b89a4;
+}
+
+.input-text:focus {
+  box-shadow: none;
+  background: #f7f7f7 !important;
+}
+
+div#form-contents-4 .form-two-title {
+  margin-top: 42px;
+}
+
+.mt-none {
+  margin-top: 0 !important;
+}
+
+div#form-contents-4 .error {
+  text-align: center;
+}
+
+.number-4 {
+  margin-top: 42px !important;
+}
+
+p.address-text {
+  color: #000;
+  text-align: center;
+  font-size: 15.16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.319px;
+}
+
+li.req-title {
+  justify-content: center;
+}
+
+.form-group label {
+  color: #000;
+}
+
+div#form-contents-3 .form-two-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+div#form-contents-3 .sub-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+div#form-contents-3 .form-group .ratio-option {
+  margin-bottom: 20px !important;
+}
