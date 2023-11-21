@@ -51,7 +51,7 @@ $(document).ready(function () {
 
   $("#submit-primary").on("click", () => {
     if ($(window).width() <= 768) {
-      $(".form-container").css("transform", "translateX(-365px)");
+      $(".form-container").css("transform", "translateX(-380px)");
     } else {
       $(".form-container").css("transform", "translateX(-415px)");
     }
