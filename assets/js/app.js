@@ -32,12 +32,15 @@ $(document).ready(function () {
   let validEmail = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
   let error = true;
 
+  $("#submit-primary").on("click", () => {
+    $(".form-container").css("transform", "translateX(-415px)");
+    $(".form-container").removeClass("height-1");
+    $(".form-container").addClass("height-2");
+  });
+
   $("#submit-primary, #second-next, #third-submit, #final-submit").on(
     "click",
     () => {
-      $(".form-container").css("transform", "translateX(-415px)");
-      $(".form-container").removeClass("height-1");
-      $(".form-container").addClass("height-2");
       window.scrollTo({
         top: 0,
         left: 0,
