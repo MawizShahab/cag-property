@@ -418,24 +418,6 @@ div#form-contents-3 .form-group .ratio-option {
   }
 }
 
-@media screen and (min-width: 391px) and (max-width: 430px) {
-  .form-container.custom-width {
-    width: 1670px !important;
-  }
-
-  .form-container.custom-width.height-2 {
-    transform: translateX(-421px) !important;
-  }
-
-  .form-container.custom-width.height-3 {
-    transform: translateX(-843px) !important;
-  }
-
-  .form-container.custom-width.height-4 {
-    transform: translateX(-1263px) !important;
-  }
-}
-
 @media screen and (min-width: 375px) and (max-width: 389px) {
   .form-container.custom-width {
     width: 1450px !important;
@@ -451,5 +433,40 @@ div#form-contents-3 .form-group .ratio-option {
 
   .form-container.custom-width.height-4 {
     transform: translateX(-1100px) !important;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 414px) {
+  .form-container.custom-width {
+    width: 1610px !important;
+  }
+  .form-container.custom-width.height-2 {
+    transform: translateX(-407px) !important;
+  }
+
+  .form-container.custom-width.height-3 {
+    transform: translateX(-814px) !important;
+  }
+
+  .form-container.custom-width.height-4 {
+    transform: translateX(-1220px) !important;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 430px) {
+  .form-container.custom-width {
+    width: 1670px !important;
+  }
+
+  .form-container.custom-width.height-2 {
+    transform: translateX(-421px) !important;
+  }
+
+  .form-container.custom-width.height-3 {
+    transform: translateX(-843px) !important;
+  }
+
+  .form-container.custom-width.height-4 {
+    transform: translateX(-1263px) !important;
   }
 }
