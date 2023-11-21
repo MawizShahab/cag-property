@@ -406,4 +406,36 @@ div#form-contents-3 .form-group .ratio-option {
   .height-4 {
     height: 1700px !important;
   }
+
+  .selected-file {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  div#form-contents-4 .form-two-title {
+    margin-top: 18px;
+  }
+
+  .file-container {
+    margin: 18px auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 430px) {
+  .form-container.custom-width {
+    width: 1670px !important;
+  }
+
+  .form-container.custom-width.height-2 {
+    transform: translateX(-421px) !important;
+  }
+
+  .form-container.custom-width.height-3 {
+    transform: translateX(-843px) !important;
+  }
+
+  .form-container.custom-width.height-4 {
+    transform: translateX(-1263px) !important;
+  }
 }
