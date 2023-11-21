@@ -323,6 +323,7 @@ hr.form-two--hr {
 
 .input-text:focus {
   box-shadow: none;
+  background: #f7f7f7 !important;
 }
 
 div#form-contents-4 .form-two-title {
