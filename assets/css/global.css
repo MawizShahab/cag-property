@@ -383,7 +383,7 @@ div#form-contents-3 .form-group .ratio-option {
   }
 
   .form-container.custom-width {
-    width: 1500px !important;
+    width: 1510px !important;
   }
 
   /* .form-container.custom-width.height-1 {
@@ -391,11 +391,11 @@ div#form-contents-3 .form-group .ratio-option {
   } */
 
   .form-container.custom-width.height-3 {
-    transform: translateX(-732px) !important;
+    transform: translateX(-763px) !important;
   }
 
   .form-container.custom-width.height-4 {
-    transform: translateX(-1098px) !important;
+    transform: translateX(-1143px) !important;
   }
 
   .next-btn {
