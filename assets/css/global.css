@@ -95,7 +95,7 @@ span.form-one-title {
 .custom-primary {
   width: 100%;
   border-radius: 4px;
-  background: #3fdcc8;
+  background: #d2ab5b;
   padding: 18px 0px;
   color: #fff;
   font-family: Poppins;
@@ -104,7 +104,7 @@ span.form-one-title {
   line-height: 24px;
 }
 .custom-primary:hover {
-  background: #24c0ab;
+  background: #d2ab5b;
   color: #fff;
 }
 .hr {
@@ -126,17 +126,17 @@ span.form-one-title {
   margin-bottom: 71px;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid #666;
+  border: 1px solid #d2ab5b;
   background: #fff;
-  color: #3fdcc8;
+  color: #d2ab5b;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
 .outlined-btn:hover {
-  border: 1px solid #3fdcc8;
-  color: #3fdcc8;
+  border: 1px solid #d2ab5b;
+  color: #d2ab5b;
 }
 /* Form 1 code Ends Here */
 
@@ -200,7 +200,7 @@ hr.form-two--hr {
   width: 100%;
   padding: 18px 0px;
   border-radius: 4px;
-  background: #3fdcc8;
+  background: #d2ab5b;
   border: none;
   color: #fff;
   font-family: Poppins;
@@ -214,7 +214,7 @@ hr.form-two--hr {
   text-decoration: none;
 }
 .next-btn:hover {
-  background: #32cbb7;
+  background: #d2ab5b;
   color: inherit;
   color: #fff;
 }
@@ -277,7 +277,7 @@ hr.form-two--hr {
 }
 
 .click-to-upload {
-  color: #a020f0;
+  color: #d2ab5b;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
