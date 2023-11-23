@@ -411,7 +411,7 @@ $(document).ready(function () {
   $("#investment-term").focusout(function () {
     input = $(this).val().trim();
     if (input == "select") {
-      $("#error-investment").text("Please Select Your Investment Term");
+      $("#error-investment").text("Please select a document type and upload the file.");
       error = true;
     } else {
       $("#error-investment").text("");
@@ -422,7 +422,7 @@ $(document).ready(function () {
   $("#investment-amount").focusout(function () {
     input = $(this).val().trim();
     if (input == "select") {
-      $("#error-amount").text("Please Select Your Investment Amount");
+      $("#error-amount").text("Please select a document type and upload the file.");
       error = true;
     } else {
       $("#error-amount").text("");
@@ -433,7 +433,7 @@ $(document).ready(function () {
   $("#source").focusout(function () {
     input = $(this).val().trim();
     if (input == "select") {
-      $("#error-source").text("Please Select Your Source of Funds");
+      $("#error-source").text("Please select a document type and upload the file.");
       error = true;
     } else {
       $("#error-source").text("");
